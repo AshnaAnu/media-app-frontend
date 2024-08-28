@@ -1,0 +1,17 @@
+@keyframes moveHorizontally {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateY(10px); /* Adjust the distance as needed */
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .move-horizontal {
+    
+    animation: moveHorizontally 1s infinite;
+  }
+  

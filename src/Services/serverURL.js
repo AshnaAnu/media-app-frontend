@@ -1,0 +1,1 @@
+export const serverURL = 'https://media-app-backend-nde0.onrender.com'
